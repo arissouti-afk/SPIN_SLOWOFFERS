@@ -1,2 +1,78 @@
-# SPIN_SLOWOFFERS
-CASINO OFFERS
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Casino Links</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+        }
+        .link-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .casino-link {
+            display: block;
+            width: 100%;
+            text-align: center;
+            text-decoration: none;
+            padding: 18px;
+            border-radius: 12px;
+            font-weight: bold;
+            color: #fff;
+            font-size: 1.1em;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .casino-link.casino1 { background-color: #16a085; }
+        .casino-link.casino2 { background-color: #d35400; }
+        .casino-link.casino3 { background-color: #2980b9; }
+        .casino-link.casino4 { background-color: #8e44ad; }
+        .casino-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+        }
+        .description {
+            font-size: 0.9em;
+            color: #f0f0f0;
+            margin-top: 4px;
+        }
+        @media (max-width: 480px) {
+            .casino-link { font-size: 16px; padding: 14px; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Master Casino Affiliate Links</h1>
+    <div class="link-container">
+        <a class="casino-link casino1" href="https://standarttrack.com/?promo=683eec81-4068-4313-8811-7527391c8db9&target=register" target="_blank">
+            Vavada Casino
+            <div class="description">Μεγάλο welcome bonus!</div>
+        </a>
+        <a class="casino-link casino2" href="https://track.coolaffs.com/visit/?bta=37376&nci=5416&afp10=Stream" target="_blank">
+            Magneticslots Casino
+            <div class="description">Απίστευτα free spins!</div>
+        </a>
+        <a class="casino-link casino3" href="https://track.coolaffs.com/visit/?bta=37376&nci=5513&afp10=Stream" target="_blank">
+            Corgibet Casino
+            <div class="description">Exclusive registration bonus!</div>
+        </a>
+        <a class="casino-link casino4" href="https://redirspinner.com/2JA1?p=%2Fregistration%2F" target="_blank">
+            Spinbetter Casino
+            <div class="description">Μοναδικό signup bonus!</div>
+        </a>
+    </div>
+</body>
+</html>
